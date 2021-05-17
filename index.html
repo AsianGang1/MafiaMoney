@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Mafia Money</title>
+        <style>
+            .border-box{
+                border:2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mafia Money</h1>
+        <h3>Name: <input id='name'></h3>
+        <button onclick="change()">Change Name</button>
+        <hr>
+        <h3 id='money'>Money: $10</h3>
+        <h3 id="henchmen">Henchmen ($12): 0</h3>
+        <button onclick="buy(1)">Buy</button>
+        <h3 id='wrenchmen'>Wrenchmen [$1 per second] ($5): 0</h3>
+        <button onclick="buy(2)">Buy</button>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="static/game.js"></script>
+        <hr>
+        <button onclick='socket.emit("search")'><h1>Search ($1)</h1></button>
+        <div id ='results'></div>
+        <hr>
+        <button onclick="toggle_log()" id="log-button">Show Log</button>
+        <div id='log' style="display: none;">
+        </div>
+    </body>
+</html>
