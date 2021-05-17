@@ -1,0 +1,1 @@
+This is a socket.io server game that I made over 2 days. The styling is garbage. Game is also a bit garbage but at least it works. sort of.
