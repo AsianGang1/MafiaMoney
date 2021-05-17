@@ -1,0 +1,25 @@
+{
+  "name": "mafia-money",
+  "version": "1.0.0",
+  "description": "This is a socket.io server game that I made over 2 days. The styling is garbage. Game is also a bit garbage but at least it works. sort of.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsianGang1/mafia-money.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsianGang1/mafia-money/issues"
+  },
+  "homepage": "https://github.com/AsianGang1/mafia-money#readme"
+}
